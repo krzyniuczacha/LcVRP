@@ -8,8 +8,7 @@
 using namespace std;
 
 int main() {
-    string filePath = "C:/Users/dtwar/Desktop/studia/Semestr_3/TEP/Laby/LcVRP/data/lcvrp/Vrp-Set-A/A-n34-k5.lcvrp";
-    // A-n34-k5 Fitness: 778
+    string filePath = "/data/lcvrp/Vrp-Set-A/A-n34-k5.lcvrp";
 
     evPtr evaluator = new Evaluator(Config::NUM_GROUPS);
 
