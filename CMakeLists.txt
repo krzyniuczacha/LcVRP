@@ -4,4 +4,13 @@ project(LcVRP)
 set(CMAKE_CXX_STANDARD 26)
 
 add_executable(LcVRP main.cpp
-        smartPointer/MySmartPointer.h)
+        smartPointer/MySmartPointer.h
+        Evaluator.h
+        Individual.h
+        Evaluator.cpp
+        Individual.cpp
+        const.h
+        GeneticAlgorithm.cpp
+        GeneticAlgorithm.h
+)
+
