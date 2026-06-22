@@ -8,7 +8,7 @@
 using namespace std;
 
 int main() {
-    string filePath = "/data/lcvrp/Vrp-Set-A/A-n34-k5.lcvrp";
+    string filePath = "../data/lcvrp/Vrp-Set-A/A-n32-k5.lcvrp";
 
     evPtr evaluator = new Evaluator(Config::NUM_GROUPS);
 
